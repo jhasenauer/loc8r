@@ -46,4 +46,5 @@ process.on('SIGTERM', function() {
   });
 });
 
-require('./locations.js');
+// Bring in the schemas and models
+require('./locations');
